@@ -184,9 +184,9 @@ public partial class @CharacterInput: IInputActionCollection2, IDisposable
             ""actions"": [
                 {
                     ""name"": ""RightButton"",
-                    ""type"": ""Value"",
+                    ""type"": ""Button"",
                     ""id"": ""9bf6c1d3-25a4-4170-aaf2-55aa9befaa6e"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -205,7 +205,7 @@ public partial class @CharacterInput: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""c190039d-533d-42a7-95fc-ae653e4d04e1"",
-                    ""path"": ""<Mouse>/delta"",
+                    ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

@@ -13,5 +13,19 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   CharacterData:
-    MoveSpeed: 10
+    MoveSpeed: 5
     RotateSpeed: 20
+  CameraRotateData:
+    RotateSpeedMobileX: 80
+    RotateSpeedMobileY: 4
+    RotateSpeedKeyboardX: 300
+    RotateSpeedKeyboardY: 4.5
+    MinZoomDistanceMidle: 12
+    MaxZoomDistanceMidle: 35
+    MinZoomDistanceBottom: 20
+    MaxZoomDistanceBottom: 70
+  RaySelectorItemData:
+    RayDistance: 10
+    InteractableLayerMask:
+      serializedVersion: 2
+      m_Bits: 64
