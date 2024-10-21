@@ -6,6 +6,7 @@ public class Character : MonoBehaviour
     private CharacterMove _playerMover;
 
     [field: SerializeField] public CharacterController CharacterController { get; private set; }
+    [field: SerializeField] public Animator Animator { get; private set; }
     public CharacterInput CharacterInput { get; private set; }
     public CharacterData CharacterData { get; private set; }
 

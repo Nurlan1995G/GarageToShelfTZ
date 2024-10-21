@@ -11,8 +11,18 @@ public class Bootstrap : MonoBehaviour
     private void Awake()
     {
         CharacterInput input = new();
+        CharacterAnimation characterAnimation = new(_character.Animator);
 
-        _character.Construct(_gameConfig.CharacterData, _characterMove, input);
         _cameraRotater.Construct(_gameConfig.CameraRotateData, input);
+        _character.Construct(_gameConfig.CharacterData, _characterMove, input);
+        InitMobile();
+    }
+
+    private void InitMobile()
+    {
+        if (Application.isMobilePlatform)
+            _cameraRotater.InitializeMobile();
+        else
+            _cameraRotater.InitializeKeyboard();
     }
 }

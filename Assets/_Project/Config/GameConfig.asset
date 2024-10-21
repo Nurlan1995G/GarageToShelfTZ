@@ -15,3 +15,12 @@ MonoBehaviour:
   CharacterData:
     MoveSpeed: 10
     RotateSpeed: 20
+  CameraRotateData:
+    RotateSpeedMobileX: 80
+    RotateSpeedMobileY: 4
+    RotateSpeedKeyboardX: 300
+    RotateSpeedKeyboardY: 4.5
+    MinZoomDistanceMidle: 12
+    MaxZoomDistanceMidle: 35
+    MinZoomDistanceBottom: 20
+    MaxZoomDistanceBottom: 70
