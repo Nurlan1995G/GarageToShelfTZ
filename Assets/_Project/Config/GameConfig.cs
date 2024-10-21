@@ -8,6 +8,14 @@ namespace Assets._Project.Config
     {
         public CharacterData CharacterData;
         public CameraRotateData CameraRotateData;
+        public RaySelectorItemData RaySelectorItemData;
+    }
+
+    [Serializable]
+    public class RaySelectorItemData
+    {
+        public float RayDistance = 10f;
+        public LayerMask InteractableLayerMask;
     }
 
     [Serializable]
