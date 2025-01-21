@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adbdb64ed64dc6d49ab2520e6291172a, type: 3}
   m_Name: GameConfig
   m_EditorClassIdentifier: 
-  CharacterData:
-    MoveSpeed: 5
-    RotateSpeed: 20
-  CameraRotateData:
-    RotateSpeedMobileX: 80
-    RotateSpeedMobileY: 4
-    RotateSpeedKeyboardX: 300
-    RotateSpeedKeyboardY: 4.5
-    MinZoomDistanceMidle: 12
-    MaxZoomDistanceMidle: 35
-    MinZoomDistanceBottom: 20
-    MaxZoomDistanceBottom: 70
-  RaySelectorItemData:
-    RayDistance: 10
-    InteractableLayerMask:
+  <CharacterData>k__BackingField:
+    _moveSpeed: 5
+    _rotateSpeed: 20
+  <CameraRotateData>k__BackingField:
+    _rotateSpeedMobileX: 60
+    _rotateSpeedMobileY: 5
+    _rotateSpeedKeyboardX: 600
+    _rotateSpeedKeyboardY: 10
+    _minZoomDistanceMidle: 3
+    _maxZoomDistanceMidle: 7
+    _minZoomDistanceBottom: 6
+    _maxZoomDistanceBottom: 14
+    _zoomStep: 0.01
+  <RaySelectorItemData>k__BackingField:
+    _rayDistance: 13
+    _interactableLayerMask:
       serializedVersion: 2
       m_Bits: 64
